@@ -1,0 +1,51 @@
+/* .main-div{
+  display: flex;
+  justify-content: 1fr 1fr 80px;
+} */
+.name-input,
+.date-input{
+  width: 180px;
+  height: 26px;
+  display: inline-flex;
+  /* padding-top: 5px; */
+  /* padding-bottom: 5px; */
+  /* font-size: 16px; */
+}
+.to-do-name,
+.to-do-date{
+  display: inline-flex;
+  width: 180px;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: bold;
+  margin-left: 6px;
+}
+.add-bt{
+  background-color: green;
+  color: white;
+  width: 70px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: arial;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete-bt{
+  width: 70px;
+  height: 30px;
+  background-color: rgb(190, 0, 0);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: arial;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
